@@ -13,10 +13,10 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.com"
   },
-  "author": "jinboker@gmail.com",
-  "homepage": "https://github.com/jinboker/react-cropper-js/",
+  "author": "marvinking316@gmail.com",
+  "homepage": "https://github.com/marvinking/react-img-cropper-temp",
   "bugs": {
-    "url": "https://github.com/jinboker/react-cropper-js/issues"
+    "url": "https://github.com/marvinking/react-img-cropper-temp/issues"
   },
   "files": [
     "lib"
@@ -30,7 +30,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jinboker/react-cropper-js.git"
+    "url": "https://github.com/marvinking/react-img-cropper-temp.git"
   },
   "dependencies": {
     "cropperjs": "^1.5.1"
