@@ -1,6 +1,6 @@
 {
   "name": "react-img-cropper-temp",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Cropper as React components",
   "types": "lib/index.d.ts",
   "main": "lib/index.js",
