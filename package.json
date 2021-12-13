@@ -1,0 +1,55 @@
+{
+  "name": "react-cropper-img",
+  "version": "1.0.3",
+  "description": "Cropper as React components",
+  "types": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rimraf lib/*",
+    "prebuild": "tslint -p .",
+    "build": "tsc",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com"
+  },
+  "author": "jinboker@gmail.com",
+  "homepage": "https://github.com/jinboker/react-cropper-js/",
+  "bugs": {
+    "url": "https://github.com/jinboker/react-cropper-js/issues"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "cropper",
+    "image"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jinboker/react-cropper-js.git"
+  },
+  "dependencies": {
+    "cropperjs": "^1.5.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.5.3",
+    "rimraf": "^2.5.4",
+    "tslint": "^5.18.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  }
+}

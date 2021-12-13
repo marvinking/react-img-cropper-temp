@@ -1,1 +1,1 @@
-# react-img-cropper-temp
+A react component for cropperjs
